@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "e26203ae-f7a6-4830-accf-126d43e09002",
+		"name": "demoStore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39136056"
+	},
+	"item": [
+		{
+			"name": "CategoryService",
+			"item": [
+				{
+					"name": "getCategoryById(id)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8085/store/api/categories/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"store",
+								"api",
+								"categories",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllCategory()",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8085/store/api/categories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"store",
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
